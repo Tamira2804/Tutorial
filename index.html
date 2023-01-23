@@ -8,26 +8,114 @@
   </head>
 
   <body>
-    <h1>Привіт</h1>
+    <h1>Hello</h1>
+    <!--Створення таблиці-->
+    <section class="table-1">
+      <table>
+        <caption>
+          Train Shedule
+        </caption>
+        <thead>
+          <tr>
+            <th>Train number</th>
+            <th>Route</th>
+            <th>Travel time</th>
+          </tr>
+        </thead>
 
-    <table>
-      <tr>
-        <td>433</td>
-        <td>London - Paris</td>
-        <td>5 hours</td>
-      </tr>
+        <tbody>
+          <tr>
+            <td>433</td>
+            <td>London - Paris</td>
+            <td>5 hours</td>
+          </tr>
 
-      <tr>
-        <td>701</td>
-        <td>New York - Chicago</td>
-        <td>7 hours</td>
-      </tr>
+          <tr>
+            <td>701</td>
+            <td>New York - Chicago</td>
+            <td>7 hours</td>
+          </tr>
 
-      <tr>
-        <td>258</td>
-        <td>Oslo - Warsaw</td>
-        <td>hours</td>
-      </tr>
-    </table>
+          <tr>
+            <td>258</td>
+            <td>Oslo - Warsaw</td>
+            <td>hours</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!--Об'єднання клітинок в таблицях-->
+    <section class="table-2">
+      <table>
+        <thead>
+          <tr>
+            <th rowspan="2">Cloud service</th>
+            <th colspan="3">Statistics</th>
+            <th></th>
+            <th></th>
+          </tr>
+
+          <tr>
+            <th></th>
+            <th>Users</th>
+            <th>Visits</th>
+            <th>Volume</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>Google</td>
+            <td>1200</td>
+            <td>307000</td>
+            <td>1000 Tb</td>
+          </tr>
+
+          <tr>
+            <td>Amaon</td>
+            <td>9000</td>
+            <td>200500</td>
+            <td>800 Tb</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!--Тег dl словник-->
+    <section class="description-list">
+      <dl>
+        <dt>JPEG</dt>
+        <dd>
+          Large files that do not require transparent backgrounds or animations.
+          This format is ideal for vivid photorealistic photographs as it can
+          contain millions of colors
+        </dd>
+
+        <dt>PNG</dt>
+        <dd>
+          Has an additional parameter for describing transparency - the alpha
+          channel. Suitable for images with transparent or monochrome
+          backgrounds. Used for icons and decorative items.
+        </dd>
+
+        <dt>webP</dt>
+        <dd>
+          A replacement format for PNG and JPEG, but with incomplete browser
+          support. When equal image quality, the compressed files will be
+          smaller than PNG and JPEG on average by 25%.
+        </dd>
+      </dl>
+    </section>
+
+    <!--Тег span-->
+    <section>
+      <p>
+        Тег <span class="accent">span</span> це універсальний контейнер для
+        дрібного текстового контенту
+      </p>
+    </section>
+
+    <!--Тег pre вірші-->
   </body>
 </html>
